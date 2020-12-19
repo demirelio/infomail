@@ -3,27 +3,76 @@
   <mj-head>
 
     <mj-attributes>
-      <mj-text align="center" color="#555" />
+      <mj-class name="text-size" font-size="16px" line-height='1.5'/>
+      <mj-class name="h1-size" font-size="25px" line-height='1.125'/>
+      <mj-class name="h2-size" font-size="20px" line-height='1.125'/>
+      <mj-class name="small-size" font-size="14px" line-height='1.2'/>
+      <mj-class name="smallest-size" font-size="12px" line-height='1'/>
+			<mj-class name="color-black" color='#2f2f2f' />
+      <mj-class name="color-indigo" color='#6366F1' />
+      <mj-class name="color-red" color='#EF4444' />
+      <mj-class name="color-green" color='#10B981' />
+      <mj-class name="color-gray" color='#9CA3AF' />
       <mj-section background-color="#fff" />
+      <mj-text font-family='Arial, Helvetica, sans-serif'/>
+      <mj-preview>This text should be less than 100 characters for the best outcome.</mj-preview>
     </mj-attributes>
 
   </mj-head>
 
-  <mj-body background-color="#eee">
+  <mj-body>
+    <mj-section padding-bottom='0'>
+      <mj-column>
+        <mj-image src='../images/logo.png' width='75px' align='left' alt='logo'/>
+        <mj-image src='../images/welcome.png' alt='welcome' href='#welcome-image-link'/>
+        <mj-text mj-class='h1-size color-black' font-weight='bold' >Welcome, Frodo Baggins!</mj-text>
+        <mj-text mj-class='text-size color-black'>
+        	Welcome emails are your first chance to engage your audience. Often it has quite high open rates.<br/><br/>
+          Don't be aggressive in this email. Helpful and insightful welcome emails who set expectations work better than "salesy" welcome emails. 
+        </mj-text>
+        <mj-button mj-class='text-size' align='left' background-color='#6366F1' inner-padding='10px 30px' href='#button-link'>Your CTA here</mj-button>
+        <mj-text mj-class='h2-size color-black' font-weight='bold' padding-top='30px'>
+        	Explain yourself!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding='0'>
+    	<mj-column>
+      	<mj-image src='../images/explore.png' width='36px' align='left' alt='Explore'/>
+        <mj-text mj-class='color-black text-size' font-weight='bold' padding-top='0' padding-bottom='5px'>Explore</mj-text>
+        <mj-text mj-class='color-black small-size' padding='0 25px'>A sentence long explanation.</mj-text>
+        <mj-text mj-class='small-size'><a href='#explore-link' style='color:#6366F1;'>Learn more</a></mj-text>
+      </mj-column>
+      <mj-column>
+      	<mj-image src='../images/learn.png' width='36px' align='left' alt='Explore'/>
+        <mj-text mj-class='color-black text-size' font-weight='bold' padding-top='0' padding-bottom='5px'>Learn</mj-text>
+        <mj-text mj-class='color-black small-size' padding='0 25px'>A sentence long explanation.</mj-text>
+        <mj-text mj-class='small-size'><a href='#explore-link' style='color:#6366F1;'>Learn more</a></mj-text>
+      </mj-column>
+      <mj-column>
+      	<mj-image src='../images/master.png' width='36px' align='left' alt='Explore'/>
+        <mj-text mj-class='color-black text-size' font-weight='bold' padding-top='0' padding-bottom='5px'>Master</mj-text>
+        <mj-text mj-class='color-black small-size' padding='0 25px'>A sentence long explanation.</mj-text>
+        <mj-text mj-class='small-size'><a href='#explore-link' style='color:#6366F1;'>Learn more</a></mj-text>
+      </mj-column>
+    </mj-section>
     <mj-section>
-
-      <mj-column>
-        <mj-text>
-          First column
+    	<mj-column>
+      	<mj-divider border-width="2px" border-style="solid" border-color="#2f2f2f" />
+        <mj-image src='../images/logo.png' width='75px' align='left' alt='logo'/>
+        <mj-text mj-class='color-black smallest-size' padding-bottom='5px'>The Prancing Pony, Bree, Reunited Kingdom</mj-text>
+        <mj-text mj-class='color-black smallest-size' padding-top='0'>
+         You can <a href='#unsubscribe-link' style='color:inherit;'>Unsubscribe</a> anytime
         </mj-text>
+         <mj-social mj-class='small-size' icon-size="20px" mode="horizontal" align='left' >
+          <mj-social-element src='../images/facebook.png'  href="#facebook-link"></mj-social-element>
+          <mj-social-element src='../images/instagram.png' href="#instagram-link"></mj-social-element>
+          <mj-social-element src='../images/twitter.png'  href="#twitter-link"></mj-social-element>
+          <mj-social-element src='../images/youtube.png'  href="#youtube-link"></mj-social-element>
+          <mj-social-element src='../images/linkedin.png'  href="#linkedin-link"></mj-social-element>
+          <mj-social-element src='../images/github.png'  href="#github-link"></mj-social-element>
+        </mj-social>
       </mj-column>
-
-      <mj-column>
-        <mj-text>
-          Second column
-        </mj-text>
-      </mj-column>
-
     </mj-section>
   </mj-body>
 </mjml>
