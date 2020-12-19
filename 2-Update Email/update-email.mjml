@@ -5,7 +5,7 @@
     <mj-attributes>
       <mj-class name="text-size" font-size="16px" line-height='1.5'/>
       <mj-class name="h1-size" font-size="32px" line-height='1.125'/>
-      <mj-class name="h2-size" font-size="20px" line-height='1.125'/>
+      <mj-class name="h2-size" font-size="20px" line-height='1.25'/>
       <mj-class name="small-size" font-size="14px" line-height='1.2'/>
       <mj-class name="smallest-size" font-size="12px" line-height='1'/>
 			<mj-class name="color-black" color='#2f2f2f' />
@@ -27,39 +27,22 @@
     <mj-section padding-bottom='0'>
       <mj-column>
         <mj-image src='../images/logo.png' width='75px' align='left' alt='logo' href='logo-link'/>
-        <mj-image src='../images/welcome.png' alt='welcome' href='#welcome-image-link'/>
-        <mj-text mj-class='h1-size color-black' font-weight='900' >Welcome, Frodo Baggins!</mj-text>
+        <mj-text mj-class='h1-size color-black' font-weight='900' padding-top='25px' >A quick update</mj-text>
+        <mj-text mj-class='h2-size color-indigo' font-weight='bold'>
+        	You can explain your product update/offer here in a nutsheel for people.
+        </mj-text>
         <mj-text mj-class='text-size color-black'>
-        	Welcome emails are your first chance to engage your audience. Often it has quite high open rates.<br/><br/>
-          Don't be aggressive in this email. Helpful and insightful welcome emails who set expectations work better than "salesy" welcome emails. 
+        	This section is for people who wants to learn everything in detail. They already have the basic information about your update. Now it's time to explain them the details.
+          <p>You can create a new p tag for each paragraph you need.</p>
         </mj-text>
-        <mj-button mj-class='text-size' align='left' background-color='#6366F1' inner-padding='10px 30px' href='#button-link'><span style='color:#fff;'>Your CTA here</span></mj-button>
-        <mj-text mj-class='h2-size color-black' font-weight='900' padding-top='30px'>
-        	Explain yourself!
+        <mj-button mj-class='text-size' align='left' background-color='#6366F1' inner-padding='10px 30px' href='#button-link' padding-top='0'><span style='color:#fff;'>Your CTA here</span></mj-button>
+        <mj-text mj-class='text-size color-black'>Cheers,<br/>Barliman Butterbur</mj-text>
+        <mj-text mj-class='small-size color-black' padding-top='30px' font-style='italic'>
+        	Do you have any additional notes? Use this smaller and italic text section for this.
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding='0'>
-    	<mj-column>
-      	<mj-image src='../images/explore.png' width='36px' align='left' alt='Explore'/>
-        <mj-text mj-class='color-black text-size' font-weight='bold' padding-top='0' padding-bottom='5px'>Explore</mj-text>
-        <mj-text mj-class='color-black small-size' padding='0 25px'>A sentence long explanation.</mj-text>
-        <mj-text mj-class='small-size'><a href='#explore-link' style='color:#6366F1;'>Learn more</a></mj-text>
-      </mj-column>
-      <mj-column>
-      	<mj-image src='../images/learn.png' width='36px' align='left' alt='Explore'/>
-        <mj-text mj-class='color-black text-size' font-weight='bold' padding-top='0' padding-bottom='5px'>Learn</mj-text>
-        <mj-text mj-class='color-black small-size' padding='0 25px'>A sentence long explanation.</mj-text>
-        <mj-text mj-class='small-size'><a href='#explore-link' style='color:#6366F1;'>Learn more</a></mj-text>
-      </mj-column>
-      <mj-column>
-      	<mj-image src='../images/master.png' width='36px' align='left' alt='Explore'/>
-        <mj-text mj-class='color-black text-size' font-weight='bold' padding-top='0' padding-bottom='5px'>Master</mj-text>
-        <mj-text mj-class='color-black small-size' padding='0 25px'>A sentence long explanation.</mj-text>
-        <mj-text mj-class='small-size'><a href='#explore-link' style='color:#6366F1;'>Learn more</a></mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section>
+    <mj-section padding-top='0'>
     	<mj-column>
       	<mj-divider border-width="2px" border-style="solid" border-color="#2f2f2f" />
         <mj-image src='../images/logo.png' width='75px' align='left' alt='logo' href='logo-link'/>
