@@ -1,0 +1,96 @@
+<mjml>
+
+  <mj-head>
+    <mj-preview>Preview text should be less than 100 characters.</mj-preview>
+    <mj-attributes>
+      <mj-class name="text-size" font-size="16px" line-height='1.5'/>
+      <mj-class name="h1-size" font-size="32px" line-height='1.125'/>
+      <mj-class name="h2-size" font-size="20px" line-height='1.125'/>
+      <mj-class name="small-size" font-size="14px" line-height='1.2'/>
+      <mj-class name="smallest-size" font-size="12px" line-height='1'/>
+			<mj-class name="color-black" color='#2f2f2f' />
+      <mj-class name="color-indigo" color='#6366F1' />
+      <mj-class name="color-red" color='#EF4444' />
+      <mj-class name="color-green" color='#10B981' />
+      <mj-class name="color-gray" color='#9CA3AF' />
+      <mj-section background-color="#fff" />
+      <mj-text font-family='Arial, Helvetica, sans-serif'/>
+    </mj-attributes>
+    <mj-style inline="inline">
+      a {
+        color: inherit !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+    <mj-section padding-bottom='0'>
+    	<mj-column>
+        <mj-image src='../images/logo.png' width='75px' align='left' alt='logo' href='logo-link'/>
+        <mj-text mj-class='text-size color-green' padding-bottom='0' font-weight='900'>SUCCESS</mj-text>
+        <mj-text mj-class='h1-size color-black' font-weight='900' padding-top='0'>Receipt for buying The Red Book of Westmarch!</mj-text>
+        <mj-text padding-bottom='5px' mj-class='text-size color-black' font-weight='bold' padding-top='10px' >
+        	Receipt: #111-111-111
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding='0'>
+    	<mj-column background-color='#E0E7FF' width='31%'>
+      	<mj-text mj-class='text-size color-black' padding='0 25px'><p style='margin-bottom:0;font-weight:bold;'>Amount</p><p style='margin-top:0;color:#9CA3AF;'>$23.98</p></mj-text>
+      </mj-column>
+      <mj-column background-color='#E0E7FF' width='31%'>
+      	<mj-text mj-class='text-size color-black' padding='0 25px'><p style='margin-bottom:0;font-weight:bold;'>Date</p><p style='margin-top:0;color:#9CA3AF;'>01/01/2021</p></mj-text>
+      </mj-column>
+      <mj-column background-color='#E0E7FF' width='30%'>
+      	<mj-text mj-class='text-size color-black' padding='0 25px'><p style='margin-bottom:0;font-weight:bold;'>Payment Method</p><p style='margin-top:0;color:#9CA3AF;'>MasterCard</p></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom='15px' padding-top='0'>
+      <mj-column>
+        <mj-table mj-class='text-size color-black'>
+          <tr style="text-align:left;padding:5px 0;">
+            <th style="padding: 0 15px 0 0;">Summary</th>
+          </tr>
+          <tr style="border-bottom:1px solid #9CA3AF;text-align:left;padding:5px 0;color:#9CA3AF">
+            <td style="padding: 0 15px 0 0;">The Red Book of Westmarch</td>
+            <td style="padding: 0 0 0 15px;padding:5px 0;word-break:keep-all;">$19.99</td>
+          </tr>
+          <tr style="border-bottom:1px solid #9CA3AF;text-align:left;padding:5px 0;color:#9CA3AF">
+            <td style="padding: 0 15px 0 0;">Some other book</td>
+            <td style="padding: 0 0 0 15px;padding:5px 0;word-break:keep-all;">$3.99</td>
+          </tr>
+          <tr style="text-align:left;padding:5px 0;font-weight:bold">
+            <td style="padding: 0 15px 0 0;">Total Amount</td>
+            <td style="padding: 0 0 0 15px;padding:5px 0;word-break:keep-all;">$23.98</td>
+          </tr>
+        </mj-table>
+        <mj-button mj-class='text-size' align='left' background-color='#6366F1' inner-padding='10px 30px' href='#button-link'><span style='color:#fff;'>Download Receipt</span></mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding='15px 0 0 0'>
+    	<mj-column>
+        <mj-text mj-class='text-size color-black'>
+        	Here you can provide some extra information for your product, links, returns, payment process etc.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+      	<mj-divider border-width="2px" border-style="solid" border-color="#2f2f2f" />
+        <mj-image src='../images/logo.png' width='75px' align='left' alt='logo' href='logo-link'/>
+        <mj-text mj-class='color-black smallest-size' padding-bottom='5px'>The Prancing Pony, Bree, Reunited Kingdom</mj-text>
+        <mj-text mj-class='color-black smallest-size' padding-top='0'>
+         You can <a href='#unsubscribe-link' style='color:inherit;'>Unsubscribe</a> anytime
+        </mj-text>
+         <mj-social mj-class='small-size' icon-size="20px" mode="horizontal" align='left' >
+          <mj-social-element src='../images/facebook.png'  href="#facebook-link"></mj-social-element>
+          <mj-social-element src='../images/instagram.png' href="#instagram-link"></mj-social-element>
+          <mj-social-element src='../images/twitter.png'  href="#twitter-link"></mj-social-element>
+          <mj-social-element src='../images/youtube.png'  href="#youtube-link"></mj-social-element>
+          <mj-social-element src='../images/linkedin.png'  href="#linkedin-link"></mj-social-element>
+          <mj-social-element src='../images/github.png'  href="#github-link"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

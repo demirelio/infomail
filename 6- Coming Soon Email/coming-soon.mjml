@@ -1,0 +1,84 @@
+<mjml>
+
+  <mj-head>
+    <mj-preview>Preview text should be less than 100 characters.</mj-preview>
+    <mj-attributes>
+      <mj-class name="text-size" font-size="16px" line-height='1.5'/>
+      <mj-class name="h1-size" font-size="32px" line-height='1.125'/>
+      <mj-class name="h2-size" font-size="20px" line-height='1.125'/>
+      <mj-class name="small-size" font-size="14px" line-height='1.2'/>
+      <mj-class name="smallest-size" font-size="12px" line-height='1'/>
+			<mj-class name="color-black" color='#2f2f2f' />
+      <mj-class name="color-indigo" color='#6366F1' />
+      <mj-class name="color-red" color='#EF4444' />
+      <mj-class name="color-green" color='#10B981' />
+      <mj-class name="color-gray" color='#9CA3AF' />
+      <mj-section background-color="#fff" />
+      <mj-text font-family='Arial, Helvetica, sans-serif'/>
+    </mj-attributes>
+    <mj-style inline="inline">
+      a {
+        color: inherit !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+    <mj-section padding-bottom='25px'>
+      <mj-column>
+        <mj-image src='../images/logo.png' width='75px' align='left' alt='logo' href='logo-link'/>
+        <mj-image src='../images/coming-soon.png' alt='coming-soon' href='#coming-soone-link'/>
+        <mj-text mj-class='h1-size color-black' font-weight='900' >Coming soon title!</mj-text>
+        <mj-text mj-class='h2-size color-indigo' font-weight='bold'>
+        	You can explain your product update/offer here in a nutsheel for people.
+        </mj-text>
+        <mj-text mj-class='text-size color-black'>
+        	Coming soon email is for creating the very first communication point with your audience. You can use this template for starting a pre-sale phase. Explaining yourself and your product and offer an early-bird opportunity.
+        </mj-text>
+        <mj-button mj-class='text-size' align='left' background-color='#6366F1' inner-padding='10px 30px' href='#button-link'><span style='color:#fff;'>Your CTA here</span></mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color='#EEF2FF'>
+    	<mj-column>
+      	<mj-text mj-class='h1-size color-black' font-weight='900' >Title for extra info...</mj-text>
+         <mj-text mj-class='text-size color-black'>And this section is good for answering potential questions to clear your audiences' mind.</mj-text>
+        <mj-social mj-class='text-size' icon-size="20px" mode="vertical" align='left' padding-top='0'>
+          <mj-social-element src='../images/checkbox.png' ><p style='padding-left:20px'>Explaining your product or cause with bullet-points helps your readers to digest content.</p></mj-social-element>
+          <mj-social-element src='../images/checkbox.png' ><p style='padding-left:20px'>Explaining your product or cause with bullet-points helps your readers to digest content.</p></mj-social-element>
+          <mj-social-element src='../images/checkbox.png' ><p style='padding-left:20px'>Explaining your product or cause with bullet-points helps your readers to digest content.</p></mj-social-element>
+          <mj-social-element src='../images/checkbox.png' ><p style='padding-left:20px'>Explaining your product or cause with bullet-points helps your readers to digest content.</p></mj-social-element>
+        </mj-social>
+        <mj-button mj-class='text-size' align='left' background-color='#6366F1' inner-padding='10px 30px' href='#button-link'><span style='color:#fff;'>Your CTA here</span></mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+        <mj-text mj-class='small-size color-indigo' font-weight='bold' padding-bottom='0'>EARLY BIRD DEAL</mj-text>
+        <mj-text mj-class='h1-size color-black' font-weight='900' padding-top='5px'>Your last words</mj-text>
+        <mj-image src='../images/counter.gif' alt='counter' href='#counter-link' width='300px'/>
+        <mj-text mj-class='text-size color-black'>
+        	This is the section you can talk about final remarks. This can be anything like early-bird sale information or some sort of testimonial.
+        </mj-text>
+        <mj-text mj-class='text-size color-indigo' font-weight='bold'><a href='#explore-link' style='color:#6366F1;'>Your nicely written CTA here &rarr;</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+      	<mj-divider border-width="2px" border-style="solid" border-color="#2f2f2f" />
+        <mj-image src='../images/logo.png' width='75px' align='left' alt='logo' href='logo-link'/>
+        <mj-text mj-class='color-black smallest-size' padding-bottom='5px'>The Prancing Pony, Bree, Reunited Kingdom</mj-text>
+        <mj-text mj-class='color-black smallest-size' padding-top='0'>
+         You can <a href='#unsubscribe-link' style='color:inherit;'>Unsubscribe</a> anytime
+        </mj-text>
+         <mj-social mj-class='small-size' icon-size="20px" mode="horizontal" align='left' >
+          <mj-social-element src='../images/facebook.png'  href="#facebook-link"></mj-social-element>
+          <mj-social-element src='../images/instagram.png' href="#instagram-link"></mj-social-element>
+          <mj-social-element src='../images/twitter.png'  href="#twitter-link"></mj-social-element>
+          <mj-social-element src='../images/youtube.png'  href="#youtube-link"></mj-social-element>
+          <mj-social-element src='../images/linkedin.png'  href="#linkedin-link"></mj-social-element>
+          <mj-social-element src='../images/github.png'  href="#github-link"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,132 @@
+<mjml>
+
+  <mj-head>
+    <mj-preview>Preview text should be less than 100 characters.</mj-preview>
+    <mj-attributes>
+      <mj-class name="text-size" font-size="16px" line-height='1.5'/>
+      <mj-class name="h1-size" font-size="32px" line-height='1.125'/>
+      <mj-class name="h2-size" font-size="20px" line-height='1.125'/>
+      <mj-class name="small-size" font-size="14px" line-height='1.2'/>
+      <mj-class name="smallest-size" font-size="12px" line-height='1'/>
+			<mj-class name="color-black" color='#2f2f2f' />
+      <mj-class name="color-indigo" color='#6366F1' />
+      <mj-class name="color-red" color='#EF4444' />
+      <mj-class name="color-green" color='#10B981' />
+      <mj-class name="color-gray" color='#9CA3AF' />
+      <mj-section background-color="#fff" />
+      <mj-text font-family='Arial, Helvetica, sans-serif'/>
+    </mj-attributes>
+    <mj-style inline="inline">
+      a {
+        color: inherit !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+    <mj-section padding='20px 0 0 0'>
+      <mj-group>
+        <mj-column><mj-image src='../images/logo.png' width='75px' align='left' alt='logo' href='logo-link'/></mj-column>
+        <mj-column><mj-text align='right' mj-class='smallest-size color-black' font-weight='bold'>Issue 1</mj-text></mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding='0'>
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="#2f2f2f" />
+        <mj-text mj-class='small-size color-indigo' font-weight='bold' padding-bottom='0'>EDITOR'S NOTE</mj-text>
+        <mj-text mj-class='h1-size color-black' font-weight='900' padding-top='5px'>Main newsletter theme</mj-text>
+        <mj-text mj-class='text-size color-black'>
+        	Hey Indie Maker,
+          <p>You can share your weekly tidbids and have a cool entrence to your theme. This section works really well for content based newsletters. If your audience knows you personally, that's your section to share your thoughts with them.</p>
+        </mj-text>
+        <mj-button mj-class='text-size' align='left' background-color='#6366F1' inner-padding='10px 30px' href='#button-link'><span style='color:#fff;'>Your CTA here</span></mj-button>
+        <mj-text mj-class='h2-size color-black' font-weight='900' padding-top='25px'>Featured Content</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top='0'>
+    	<mj-column>
+      	<mj-image src='https://via.placeholder.com/300x150.png?text=300x150' href='#featured-screenshot-link' alt='featured screenshot'/>
+        <mj-text mj-class='color-black text-size' font-weight='bold' padding-top='0' padding-bottom='5px'>9 rings that changed the Middle Earth</mj-text>
+        <mj-text mj-class='color-black small-size' padding='0 25px'>One ring to rule them all, one ring to find them, One ring to bring them all, and in the darkness bind them; In the Land of Mordor where the shadows lie.</mj-text>
+        <mj-text mj-class='small-size color-indigo' font-weight='bold'><a href='#explore-link' style='color:#6366F1;'>Learn more</a></mj-text>
+      </mj-column>
+      <mj-column>
+      	<mj-image src='https://via.placeholder.com/300x150.png?text=300x150' href='#featured-screenshot-link' alt='featured screenshot'/>
+        <mj-text mj-class='color-black text-size' font-weight='bold' padding-top='0' padding-bottom='5px'>What Celebrimbor said about The One Ring</mj-text>
+        <mj-text mj-class='color-black small-size' padding='0 25px'>Unlike both his father and his grandfather, Celebrimbor was portrayed as being both selfless and kind...</mj-text>
+        <mj-text mj-class='small-size color-indigo' font-weight='bold'><a href='#explore-link' style='color:#6366F1;'>Learn more</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color='#EEF2FF'>
+    	<mj-column>
+        <mj-image src='https://via.placeholder.com/300x300.png?text=300x300' href='#special-screenshot-link' alt='special screenshot'/>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class='smallest-size color-indigo' font-weight='900' padding-bottom='0'>SPONSORED</mj-text>
+        <mj-text mj-class='color-black h2-size' font-weight='900' padding-top='5px' padding-bottom='0'>How's the life beyond Grey Havens</mj-text>
+        <mj-text mj-class='color-black text-size' padding='15px 25px'>The Grey Havens, known also as Mithlond, was an Elvish port city on the Gulf of Lune in the Elven realm of Lindon in Middle-earth.</mj-text>
+        <mj-text mj-class='text-size color-indigo' font-weight='bold' padding-top='0'><a href='#explore-link' style='color:#6366F1;'>Learn more</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom='0'>
+    	<mj-column>
+        <mj-text mj-class='h2-size color-black' font-weight='900' padding-top='25px' padding-bottom='0'>Curated Content</mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="#D1D5DB" />
+        <mj-text mj-class='small-size color-black'>
+        	<h3 style='margin-bottom:0;'>This is RSS title for your curated content</h3>
+          <p style='margin-top:10px;'>This is excerpt for your curated content. Try to keep it as short as possible so it will be easier to digest.</p>
+          <a href='#explore-link' style='color:#6366F1 !important;font-weight:bold;'>Learn more</a>
+          <hr style='border:none; border-bottom:1px dashed #D1D5DB; padding-top:10px' />
+        </mj-text>
+        <mj-text mj-class='small-size color-black'>
+        	<h3 style='margin-bottom:0;'>This is RSS title for your curated content</h3>
+          <p style='margin-top:10px;'>This is excerpt for your curated content. Try to keep it as short as possible so it will be easier to digest.</p>
+          <a href='#explore-link' style='color:#6366F1 !important;font-weight:bold;'>Learn more</a>
+          <hr style='border:none; border-bottom:1px dashed #D1D5DB; padding-top:10px' />
+        </mj-text>
+        <mj-text mj-class='small-size color-black'>
+        	<h3 style='margin-bottom:0;'>This is RSS title for your curated content</h3>
+          <p style='margin-top:10px;'>This is excerpt for your curated content. Try to keep it as short as possible so it will be easier to digest.</p>
+          <a href='#explore-link' style='color:#6366F1 !important;font-weight:bold;'>Learn more</a>
+          <hr style='border:none; border-bottom:1px dashed #D1D5DB; padding-top:10px' />
+        </mj-text>
+        <mj-text mj-class='small-size color-black'>
+        	<h3 style='margin-bottom:0;'>This is RSS title for your curated content</h3>
+          <p style='margin-top:10px;'>This is excerpt for your curated content. Try to keep it as short as possible so it will be easier to digest.</p>
+          <a href='#explore-link' style='color:#6366F1 !important;font-weight:bold;'>Learn more</a>
+          <hr style='border:none; border-bottom:1px dashed #D1D5DB; padding-top:10px' />
+        </mj-text>
+        <mj-text mj-class='h2-size color-black' font-weight='900' padding-top='15px' align='center'>Enjoyed this issue? Share it:</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding='0 10px'>
+    	<mj-column padding="10px" inner-background-color="#6EE7B7" >
+        <mj-text mj-class='small-size color-black' font-weight='bold' align='center'><a href='#share-link'>Share on the web</a></mj-text>
+      </mj-column>
+      <mj-column padding="10px" inner-background-color="#FCD34D" >
+        <mj-text mj-class='small-size color-black' font-weight='bold' align='center'><a href='#share-link'>Share on Twitter</a></mj-text>
+      </mj-column>
+      <mj-column padding="10px" inner-background-color="#F9A8D4" >
+        <mj-text mj-class='small-size color-black' font-weight='bold' align='center'><a href='#share-link'>Forward via Email</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+      	<mj-divider border-width="2px" border-style="solid" border-color="#2f2f2f" />
+        <mj-image src='../images/logo.png' width='75px' align='left' alt='logo' href='logo-link'/>
+        <mj-text mj-class='color-black smallest-size' padding-bottom='5px'>The Prancing Pony, Bree, Reunited Kingdom</mj-text>
+        <mj-text mj-class='color-black smallest-size' padding-top='0'>
+         You can <a href='#unsubscribe-link' style='color:inherit;'>Unsubscribe</a> anytime
+        </mj-text>
+         <mj-social mj-class='small-size' icon-size="20px" mode="horizontal" align='left' >
+          <mj-social-element src='../images/facebook.png'  href="#facebook-link"></mj-social-element>
+          <mj-social-element src='../images/instagram.png' href="#instagram-link"></mj-social-element>
+          <mj-social-element src='../images/twitter.png'  href="#twitter-link"></mj-social-element>
+          <mj-social-element src='../images/youtube.png'  href="#youtube-link"></mj-social-element>
+          <mj-social-element src='../images/linkedin.png'  href="#linkedin-link"></mj-social-element>
+          <mj-social-element src='../images/github.png'  href="#github-link"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
