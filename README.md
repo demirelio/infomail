@@ -1,3 +1,5 @@
+![Premium HTML Emails for Monetizing Information Products](../images/cover.png)
+
 # Infomail | Premium HTML Emails for Monetizing Information Products
 
 Hi there,
