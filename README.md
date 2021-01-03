@@ -30,7 +30,8 @@ Each template can be used in every single ESPs out there. You can use them with 
 
 ## Templates
 
-Below you will find information about all 10 HTML emails. Each email folder contains both mobile and desktop screenshots:
+Below you will find information about all 10 HTML emails:
+![Screenshots](https://raw.githubusercontent.com/emred2700/infomail/main/images/mails.png)
 
 1. **Welcome Email:** These are the very first email you send when you collect email addresses. It's important to be not too salesy with your welcome email.
 2. **Update Email:** Update emails are for sending occasional updates, sharing new information and keeping your audience engaged in a personal way.
