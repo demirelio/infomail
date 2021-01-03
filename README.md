@@ -1,4 +1,4 @@
-![Premium HTML Emails for Monetizing Information Products](../images/cover.png)
+![Premium HTML Emails for Monetizing Information Products](https://raw.githubusercontent.com/emred2700/infomail/main/images/cover.png)
 
 # Infomail | Premium HTML Emails for Monetizing Information Products
 
